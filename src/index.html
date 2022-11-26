@@ -13,13 +13,13 @@
     <div class="main">
       <form>
         <label for="ccname">Name</label>
-        <input type="text" name="ccname" autocomplete="ccname" placeholder="Name">
+        <input type="text" name="ccname" autocomplete="ccname" placeholder="Name" autocomplete = ".input">
         <label for="cardnumber">Card Number</label>
-        <input name="cardnumber" type="number" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="16" placeholder="Card Number">
+        <input name="cardnumber" type="number" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete=".cardnumber" maxlength="16" placeholder="Card Number">
         <label for="cvc">CVC</label>
-        <input name="cvc" type="number" maxlength="3" pattern="[0-9]*" inputmode="numeric" placeholder="Security code">
+        <input name="cvc" type="number" maxlength="3" pattern="[0-9]*" inputmode="numeric" placeholder="Security code" autocomplete="input">
         <label for="cvc">Expireance date</label>
-        <input name="cc-exp" type="number" placeholder="Date of expire">
+        <input name="cc-exp" type="number" placeholder="Date of expire" autocomplete="cc-exp">
       </form>
     </div>
   </body>
