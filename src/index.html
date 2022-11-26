@@ -15,11 +15,11 @@
         <label for="ccname">Name</label>
         <input type="text" name="ccname" autocomplete="ccname" placeholder="Name">
         <label for="cardnumber">Card Number</label>
-        <input name="cardnumber" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="16" placeholder="Card Number">
+        <input name="cardnumber" type="number" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="16" placeholder="Card Number">
         <label for="cvc">CVC</label>
-        <input name="cvc" type="text" maxlength="3" pattern="[0-9]*" inputmode="numeric" placeholder="Security code">
+        <input name="cvc" type="number" maxlength="3" pattern="[0-9]*" inputmode="numeric" placeholder="Security code">
         <label for="cvc">Expireance date</label>
-        <input name="cc-exp" type="date" placeholder="Date of expire">
+        <input name="cc-exp" type="number" placeholder="Date of expire">
       </form>
     </div>
   </body>
